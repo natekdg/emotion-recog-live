@@ -64,6 +64,6 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('1'):
         break
 
-# quit all activities and webcame
+# quit all activities and webcam
 cap.release()
 cv2.destroyAllWindows()
