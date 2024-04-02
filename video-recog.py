@@ -1,4 +1,5 @@
 import cv2
+
 from deepface import DeepFace
 
 # bring the pre-trained model for emotion detection
@@ -61,7 +62,7 @@ while True:
     cv2.imshow('Live Emotion Detection', frame)
 
     # press 'q' to exit the loop and end the program
-    if cv2.waitKey(1) & 0xFF == ord('1'):
+    if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
 # quit all activities and webcam
